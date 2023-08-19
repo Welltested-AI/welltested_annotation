@@ -9,7 +9,6 @@
 ///Annotate classes with [Welltested] to generate unit tests for it's methods.
 ///
 ///Param: [excludedMethods] accepts functions to be excluded from testing.
-
 class Welltested {
   final List<String> excludedMethods;
 

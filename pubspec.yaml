@@ -1,7 +1,15 @@
 name: welltested_annotation
-description: A starting point for Dart libraries or applications.
+description: Annotation package for welltested https://pub.dev/packages/welltested.
 version: 1.0.0
-# homepage: https://www.example.com
+homepage: https://www.welltested.ai
+
+repository: https://github.com/Welltested-AI/welltested_annotation
+issue_tracker: https://github.com/Welltested-AI/welltested_annotation/issues
+
+platforms:
+  linux:
+  windows:
+  macos:
 
 environment:
   sdk: '>=2.12.0 <3.0.0'

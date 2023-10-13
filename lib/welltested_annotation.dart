@@ -11,9 +11,11 @@
 ///Param: [excludedMethods] accepts functions to be excluded from testing.
 class Welltested {
   final List<String> excludedMethods;
+  final List supportingClasses;
 
   const Welltested({
     this.excludedMethods = const [],
+    this.supportingClasses = const [],
   });
 }
 

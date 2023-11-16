@@ -25,3 +25,14 @@ class Testcases {
     this.testcases,
   );
 }
+
+enum TestFramework { Flutter }
+
+enum IntegrationTestType { Integrations, E2E }
+
+abstract class WelltestedIntegrationTest {
+  String get setup;
+  List<String> get testFlows;
+  List<Object> get testObjects;
+  TestFramework get testFramework => TestFramework.Flutter;
+}

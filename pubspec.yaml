@@ -14,6 +14,10 @@ platforms:
 environment:
   sdk: '>=2.12.0 <4.0.0'
 
-# dependencies:
+dependencies:
+  flutter:
+      sdk: flutter
 
-# dev_dependencies:
+dev_dependencies:
+  integration_test:
+    sdk: flutter
